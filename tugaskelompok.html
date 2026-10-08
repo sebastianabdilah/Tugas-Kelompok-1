@@ -1,0 +1,197 @@
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Biodata Kelompok - Tabel</title>
+
+    <style>
+        /* CSS Sederhana */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* Container Pembungkus Tabel */
+        .table-container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow-x: auto;
+        }
+
+        /* Styling Tabel */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        th,
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ddd;
+            vertical-align: middle;
+        }
+
+        /* Styling Header Tabel */
+        th {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        /* Efek Baris Selang-Seling */
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        /* Efek Hover Saat Kursor */
+        tbody tr:hover {
+            background-color: #e6f2ff;
+        }
+
+        /* Foto Profil */
+        .profile-img {
+            width: 60px;
+            height: 60px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>KELOMPOK UI/UX</h1>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Foto Profil</th>
+                    <th>Nama Lengkap</th>
+                    <th>NIM</th>
+                    <th>Program Studi</th>
+                    <th>Domisili</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <!-- ANGGOTA 1 -->
+                <tr>
+                    <td class="text-center">1</td>
+
+                    <td>
+                        <!-- Ganti src dengan nama file foto Anda,
+                             contoh: foto1.jpg -->
+                        <img
+                            src="Assets/Img/Anggota 1.jpeg"
+                            class="profile-img"
+                            alt="Foto Profil"
+                        >
+                    </td>
+
+                    <td>Sebastian Abdilah 1</td>
+
+                    <td class="text-center">
+                        0110226013
+                    </td>
+
+                    <td>
+                        Teknik Informatika
+                    </td>
+
+                    <td>
+                        depok
+                    </td>
+                </tr>
+
+                <!-- ANGGOTA 2 -->
+                <tr>
+                    <td class="text-center">2</td>
+                    <td>
+                        <img
+                            src="assets/img/7.jpeg"
+                            class="profile-img"
+                            alt="Foto Profil"
+                        >
+                    </td>
+                    <td>Rusqi Yudha Wastu 2</td>
+                    <td class="text-center">0110226008</td>
+                    <td>Teknik Informatika</td>
+                    <td>Jakarta</td>
+                </tr>
+
+                <!-- ANGGOTA 3 -->
+                <tr>
+                    <td class="text-center">3</td>
+                    <td>
+                        <img
+                            src="Assets/Img/9.jpeg"
+                            class="profile-img"
+                            alt="Foto Profil"
+                        >
+                    </td>
+                    <td>Seftian ajie saputra 3</td>
+                    <td class="text-center">0110226091</td>
+                    <td>Teknik Informatika</td>
+                    <td>Bojong gede</td>
+                </tr>
+
+                <!-- ANGGOTA 4 -->
+                <tr>
+                    <td class="text-center">4</td>
+                    <td>
+                        <img
+                            src="assets/img/Anggota 4.jpeg"
+                            class="profile-img"
+                            alt="Foto Profil"
+                        >
+                    </td>
+                    <td>Rizkia auladina 4</td>
+                    <td class="text-center">0110226070</td>
+                    <td>Teknik Informatika</td>
+                    <td>Depok</td>
+                </tr>
+
+                <!-- Rhiky setiawan -->
+                <tr>
+                    <td class="text-center">5</td>
+                    <td>
+                        <img
+                            src="assets/img/8.jpeg"
+                            class="profile-img"
+                            alt="Foto Profil"
+                        >
+                    </td>
+                    <td>Rhiky setiawan 5</td>
+                    <td class="text-center">0110226146</td>
+                    <td>Teknik Informatika</td>
+                    <td>Depok</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
